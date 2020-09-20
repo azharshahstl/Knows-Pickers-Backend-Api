@@ -28,3 +28,5 @@ class Api::V1::ItemsController < ApplicationController
         params.permit(:address_id, :name)
     end
 end
+
+
