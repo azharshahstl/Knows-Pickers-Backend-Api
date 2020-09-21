@@ -1,2 +1,1 @@
-web: open index.html
-web: rails s 
+web: rails server
