@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :items
       resources :users
       post '/login', to: 'auth#create'
+      get '/', to: 'addresses#index'
     end 
   end
 end
