@@ -27,3 +27,5 @@ class Api::V1::AddressesController < ApplicationController
         params.require(:address).permit(:street_number, :street_name, :zip_code)
     end
 end
+
+# comment
