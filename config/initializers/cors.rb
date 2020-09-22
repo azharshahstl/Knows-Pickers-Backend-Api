@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://git.heroku.com/knows-pickers-app-api.git'
+    origins 'https://sleepy-mcnulty-c4e137.netlify.app/'
 
     resource '*',
       headers: :any,
